@@ -1,5 +1,5 @@
 variable "projectName" {
-  default = "fiap-aula-terraform"
+  default = "fiap-aula-2025"
 }
 
 variable "region_default" {

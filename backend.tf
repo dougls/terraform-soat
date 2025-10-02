@@ -3,7 +3,7 @@ terraform {
     organization = "soat-tf"
 
     workspaces {
-      name = "production"
+      name = "terraform-soat"
     }
   }
 }
