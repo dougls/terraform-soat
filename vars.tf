@@ -1,5 +1,5 @@
 variable "projectName" {
-  default = "fiap-aula-terraform"
+  default = "fiap-aula-2025"
 }
 
 variable "region_default" {
@@ -14,6 +14,7 @@ variable "tags" {
   default = {
     Name = "fiap-terraform-aula",
     School = "FIAP",
+    Turma = "11SOAT",
     Environment = "Production",
     Year = "2025"
   }
