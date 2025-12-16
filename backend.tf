@@ -1,6 +1,6 @@
 terraform {
   cloud {
-    organization = "soat-tf"
+    organization = "tf-12soat"
 
     workspaces {
       name = "terraform-soat"
