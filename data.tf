@@ -1,6 +1,6 @@
-data "aws_iam_user" "principal_user" {
-  user_name = "live-fiap"
-}
+# data "aws_iam_user" "principal_user" {
+#   user_name = "live-fiap"
+# }
 
 data "aws_eks_cluster" "cluster" {
   name = aws_eks_cluster.cluster.name

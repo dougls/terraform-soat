@@ -23,3 +23,7 @@ variable "tags" {
 variable "instance_type" {
   default = "t3.medium"
 }
+
+variable "labRole" {
+  default = "arn:aws:iam::992382364937:role/LabRole"
+}
