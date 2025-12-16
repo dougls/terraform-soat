@@ -5,7 +5,7 @@ resource "aws_eks_cluster" "cluster" {
     authentication_mode = "API"
   }
 
-  role_arn = aws_iam_role.cluster.arn
+  role_arn = var.labRole
   version  = "1.32"
 
   vpc_config {
@@ -16,8 +16,4 @@ resource "aws_eks_cluster" "cluster" {
     ]
     security_group_ids = [aws_security_group.sg.id]
   }
-
-  depends_on = [
-    aws_iam_role_policy_attachment.cluster_AmazonEKSClusterPolicy,
-  ]
 }
