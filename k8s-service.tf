@@ -1,6 +1,6 @@
 resource "kubectl_manifest" "service" {
-    depends_on = [ kubectl_manifest.deploy ]
-    yaml_body = <<YAML
+  depends_on = [kubectl_manifest.deploy]
+  yaml_body  = <<YAML
 apiVersion: v1
 kind: Service
 metadata:
