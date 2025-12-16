@@ -16,7 +16,7 @@ variable "tags" {
     School = "FIAP",
     Turma = "11SOAT",
     Environment = "Production",
-    Year = "2025"
+    Year        = "2025"
   }
 }
 
