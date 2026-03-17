@@ -25,9 +25,9 @@ variable "instance_type" {
 }
 
 variable "labRole" {
-  default = "arn:aws:iam::992382364937:role/LabRole"
+  default = "arn:aws:iam::975050112260:role/LabRole"
 }
 
 variable "principalArn" {
-  default = "arn:aws:iam::992382364937:role/voclabs"
+  default = "arn:aws:iam::975050112260:role/voclabs"
 }
