@@ -1,5 +1,5 @@
 variable "projectName" {
-  default = "fiap-aula-2026-14soat"
+  default = "fiap-2026-14soat"
 }
 
 variable "region_default" {
