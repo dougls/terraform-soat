@@ -1,5 +1,5 @@
 variable "projectName" {
-  default = "fiap-2026-14soat"
+  default = "fiap-2026-15soat"
 }
 
 variable "region_default" {
@@ -14,7 +14,7 @@ variable "tags" {
   default = {
     Name        = "fiap-terraform-aula",
     School      = "FIAP",
-    Turma       = "14SOAT",
+    Turma       = "15SOAT",
     Environment = "Production",
     Year        = "2026"
   }
@@ -25,9 +25,9 @@ variable "instance_type" {
 }
 
 variable "labRole" {
-  default = "arn:aws:iam::371269711873:role/LabRole"
+  default = "arn:aws:iam::851559502157:role/LabRole"
 }
 
 variable "principalArn" {
-  default = "arn:aws:iam::371269711873:role/voclabs"
+  default = "arn:aws:iam::851559502157:role/voclabs"
 }
