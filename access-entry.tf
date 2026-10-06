@@ -1,7 +1,7 @@
 resource "aws_eks_access_entry" "access_entry" {
   cluster_name      = aws_eks_cluster.cluster.name
   principal_arn     = var.principalArn
-  kubernetes_groups = ["group-11soat", "group-profs"]
+  kubernetes_groups = ["group-16soat", "group-profs"]
   type              = "STANDARD"
 }
 
