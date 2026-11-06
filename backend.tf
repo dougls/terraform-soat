@@ -1,6 +1,6 @@
 terraform {
     cloud {
-        organization = "soat-turma-16"
+        organization = "caixaverso-java"
 
         workspaces {
             name = "terraform-soat"
